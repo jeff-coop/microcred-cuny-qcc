@@ -1,0 +1,101 @@
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #clear;
+  color: clear;
+  font-size: 30px;
+}
+
+body {
+  background-image: url("ocean.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  backface-visibility: visible;
+}
+
+h1, h2, h3, h4 {
+  background-image: url("clubs.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+h5 {
+  background-color: navy;
+  background-repeat: repeat;
+  background-size: contain;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.hd {
+  background-color: greenyellow;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+img {
+  border-radius: 90%;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: pink;
+  border-spacing: inherit;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+p.first {
+  opacity: 50%;
+  color: crimson;
+}
+
+.first {
+  background-color: lightgreen;
+}
+
+.second {
+  font-style: italic;
+  font-family: "Tangerine"
+}
+
+.third {
+  font-style: italic;
+  font-style: oblique;
+}
+
+.fourth {
+  font-style: italic;
+  font-family: "Tangerine"
+}
+
+p {
+  color: white;
+}
+
+table, tr, th {
+  width: 50px;
+  height: 50px;
+  spacing: 40px;
+  text-align: center;
+  vertical-align: inherit;
+  border-spacing: inherit;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-stretch: semi-condensed;
+}
