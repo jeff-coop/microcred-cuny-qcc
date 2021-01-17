@@ -1,0 +1,96 @@
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #212;
+  font-family: monospace;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+body {
+  margin: 1px;
+  font-family: fantasy;
+  background-color: yellow;
+}
+
+/* style the header */
+.header {
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+  font-family: monospace;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: yellow;
+  padding: 20px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*Create three equal columns that float next to each other*/
+.column {
+  float: left;
+  width: 30%;
+  padding: 1px;
+  column-gap: 40px;
+  column-count: 1;
+  column-fill: auto;
+  column-width: 100px;
+  font-family: monospace;
+  column-rule-style: dotted;
+  column-rule-color: rebeccapurple;
+}
+
+.id {
+  column-count: 1;
+  float: left;
+  width: 30%;
+  padding: 1px;
+  column-gap: 40px;
+  column-fill: auto;
+  column-rule: 40px solid rebeccapurple;
+  font-family: monospace;
+}
+
+/*Clear floats after the columns*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Responsive layout-makes the three columns stack on top of each other instead of next to each other*/
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
